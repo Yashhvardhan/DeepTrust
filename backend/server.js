@@ -58,25 +58,39 @@ app.use((err, req, res, next) => {
   });
 });
 
-initDB()
-  .then(() => {
+async function startServer() {
+  try {
+    await initDB();
+
     const server = app.listen(PORT, () => {
-      console.log(`\n🚀 Fake News & Fact Verification API running on http://localhost:${PORT}`);
+      console.log(
+        `Fake News & Fact Verification API running on http://localhost:${PORT}`
+      );
       console.log(`LLM mock mode: ${llmMock() ? 'ON' : 'OFF'}`);
       console.log(`Search mock mode: ${searchMock() ? 'ON' : 'OFF'}`);
     });
 
     server.on('error', (err) => {
       if (err.code === 'EADDRINUSE') {
-        console.error(`Port ${PORT} is already in use. Stop the other process or pick a different PORT.`);
-        process.exit(1);
-      } else {
-        console.error(err);
+        console.error(
+          `Port ${PORT} is already in use. Stop the other process or pick a different PORT.`
+        );
         process.exit(1);
       }
+
+      console.error(err);
+      process.exit(1);
     });
-  })
-  .catch((err) => {
+  } catch (err) {
     console.error('Failed to initialize database', err);
     process.exit(1);
-  });
+  }
+}
+
+// Local development starts the Express server.
+// Vercel handles the serverless HTTP function.
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+module.exports = app;
