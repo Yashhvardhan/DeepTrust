@@ -1,0 +1,53 @@
+<svg width="680" height="620" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>AI Agent Flow for Fake News and Fact Verification</title>
+<desc>User input flows through four agents in sequence: Content Reader, Claim Extractor, Fact Verification Agent, and Report Generator, producing a final verification report.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5f5e5a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="680" height="620" fill="#0f1216"/>
+
+<g>
+<rect x="190" y="20" width="300" height="52" rx="8" fill="#2c2c2a" stroke="#5f5e5a" stroke-width="0.5"/>
+<text x="340" y="40" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#f1efe8">User input</text>
+<text x="340" y="58" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#b4b2a9">URL, file upload, or pasted text</text>
+</g>
+<line x1="340" y1="72" x2="340" y2="106" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="160" y="106" width="360" height="56" rx="8" fill="#3c3489" stroke="#7f77dd" stroke-width="0.5"/>
+<text x="340" y="126" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#eeedfe">Agent 1 — Content reader</text>
+<text x="340" y="144" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#cecbf6">Scrapes URL or parses PDF, DOCX, TXT</text>
+</g>
+<line x1="340" y1="162" x2="340" y2="196" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="160" y="196" width="360" height="56" rx="8" fill="#3c3489" stroke="#7f77dd" stroke-width="0.5"/>
+<text x="340" y="216" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#eeedfe">Agent 2 — Claim extractor</text>
+<text x="340" y="234" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#cecbf6">LLM identifies checkable factual claims</text>
+</g>
+<line x1="340" y1="252" x2="340" y2="286" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="140" y="286" width="400" height="66" rx="8" fill="#085041" stroke="#1d9e75" stroke-width="0.5"/>
+<text x="340" y="308" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#e1f5ee">Agent 3 — Fact verification agent</text>
+<text x="340" y="326" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#9fe1cb">Web search per claim, then LLM verdict</text>
+<text x="340" y="342" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#9fe1cb">+ confidence score (RAG loop)</text>
+</g>
+<line x1="340" y1="352" x2="340" y2="386" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="160" y="386" width="360" height="56" rx="8" fill="#085041" stroke="#1d9e75" stroke-width="0.5"/>
+<text x="340" y="406" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#e1f5ee">Agent 4 — Report generator</text>
+<text x="340" y="424" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#9fe1cb">Trust score, tallies, summary, recommendation</text>
+</g>
+<line x1="340" y1="442" x2="340" y2="476" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="150" y="476" width="380" height="66" rx="8" fill="#173404" stroke="#639922" stroke-width="0.5"/>
+<text x="340" y="500" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#eaf3de">Verification report</text>
+<text x="340" y="518" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#c0dd97">Trust score, claim breakdown, sources — shown</text>
+<text x="340" y="534" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#c0dd97">in UI and saved to the database</text>
+</g>
+
+<text x="340" y="576" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#b4b2a9">Purple = reads and understands content · Teal = verifies and reports</text>
+</svg>

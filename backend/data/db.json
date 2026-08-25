@@ -1,0 +1,2006 @@
+{
+  "users": [
+    {
+      "id": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "email": "vardhanyash862@gmail.com",
+      "passwordHash": "$2a$10$0xkrZZmXP/0RxoFZwySIT.XAkS7PZirySeIjyaMsytX489xhJ9ZfS",
+      "createdAt": "2026-08-18T11:45:23.689Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "60fcb473-21d2-475a-b68b-51db2a33cdef",
+      "userId": "ae89ca53-afd2-4b8f-8d19-2fede49e832a",
+      "inputType": "videoUrl",
+      "inputRef": "https://youtube.com/shorts/zSJfeGiOBDw?si=SOoZWyG9dxtpUuAU",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": false,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "AI Baby Video Magic Cute AI-Generated Baby Clips That Feel Real & Viral # #cutekids #aishorts",
+        "sourceUrl": "https://youtube.com/shorts/zSJfeGiOBDw?si=SOoZWyG9dxtpUuAU",
+        "contentCategory": "video",
+        "verdict": "Unclear",
+        "verdictConfidence": 50,
+        "trustScore": 50,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 2,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 2,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 2
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "The video content consists of AI-generated baby clips.",
+            "category": "other",
+            "searchQuery": "AI-generated baby clips",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 85,
+            "hallucinationRisk": true,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (85%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "AI Baby Videos Are Going Viral, Cute Innovation or Creepy ...",
+                "url": "https://www.reddit.com/r/GenAI4all/comments/1mrvx89/ai_baby_videos_are_going_viral_cute_innovation_or/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "baby ai video generator free - Dance & Singing",
+                "url": "https://kling.ai/explore/baby_ai_video_generator_free",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Funny ai baby video #explorepage #fyp #everyone #viral ...",
+                "url": "https://www.facebook.com/Greeneskinsgaming/videos/funny-ai-baby-video/3972326619762040/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "AI Baby Talking Generator: Create Talking Baby Videos",
+                "url": "https://mangoanimate.com/ai/ai-baby-talking",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "How to Create a VIRAL Talking Baby Podcast with AI (Fast & ...",
+                "url": "https://www.youtube.com/watch?v=V5PfjzT52Iw",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "claim": "The channel associated with the video is named totalaivideo9.",
+            "category": "other",
+            "searchQuery": "totalaivideo9 channel name",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 85,
+            "hallucinationRisk": true,
+            "independentSources": 5,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (85%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "YouTube Channel Name Ideas (+ AI YouTube Name Generator!)",
+                "url": "https://www.youtube.com/watch?v=CgVBv-Ccphw",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Free AI YouTube Channel Name Generator",
+                "url": "https://vidiq.com/ai-channel-name-generator/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Free AI YouTube Name Generator | Birdeye",
+                "url": "https://birdeye.com/social-media-tools/youtube-name-generator/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Free YouTube Channel Name Generator",
+                "url": "https://www.ryrob.com/youtube-channel-name-generator/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Youtube Name Generator through AI",
+                "url": "https://www.renderforest.com/youtube-name-generator",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": {
+          "performed": true,
+          "scope": "Single thumbnail frame only — not a full frame-by-frame video scan.",
+          "verdict": "no_signs_detected",
+          "confidence": 60,
+          "categories": {
+            "face": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "expression": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "background": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "textOrOverlay": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "other": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            }
+          }
+        },
+        "summary": "MOCK_MODE: Most extracted claims (2 of them) could not be checked against available search evidence, so overall credibility could not be fully assessed. Only 100% of claims had any matching source found. Additional caution flags: 2 possible hallucination(s), 1 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Could not be fully verified — treat with normal caution and check for additional sources before sharing.",
+        "generatedAt": "2026-08-07T06:12:55.695Z"
+      },
+      "createdAt": "2026-08-07T06:12:55.695Z"
+    },
+    {
+      "id": "1ea3ba21-a10b-433a-a00e-910fb8e0e85c",
+      "userId": "ae89ca53-afd2-4b8f-8d19-2fede49e832a",
+      "inputType": "newsUrl",
+      "inputRef": "https://www.thehindu.com/news/national/rss-chief-mohan-bhagwat-iimun-youth-conference/article71313689.ece",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": false,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "Gen Z’s grievances are genuine: RSS chief Mohan Bhagwat - The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/rss-chief-mohan-bhagwat-iimun-youth-conference/article71313689.ece",
+        "contentCategory": "news",
+        "verdict": "Unclear",
+        "verdictConfidence": 50,
+        "trustScore": 50,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 1,
+          "temporalWarning": 3,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 8,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 8
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "pic.twitter.com/c9NbjamkkL— Press Trust of India (@PTI_News) August 6, 2026Gen Z’s grievances are genuine and need to be addressed, Rashtriya Swayamsevak Sangh Sarsanghchalak Mohan Bhagwat said on Thursday (August 6, 2026).",
+            "category": "statistic",
+            "searchQuery": "pic.twitter.com c9NbjamkkL Press Trust of India PTI_News August 6 2026Gen",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 73,
+            "hallucinationRisk": false,
+            "independentSources": 3,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "Top Stories of the Day - Aug 6, 2026 (n/9) #PTINews ...",
+                "url": "https://x.com/PTI_News/status/2085373395915743291/photo/1",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Press Trust of India (@PTI_News) / Posts / X",
+                "url": "https://twitter.com/PTI_News?fbclid=IwY2xjawR6OJ5leHRuA2FlbQIxMABicmlkETFudVBiNUtsTUZSYjZnb0JTc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqeBz4ZN3B4ljJeTKLzDbampWJtZo3NZkr7FMzHEQdA5DkYx86jPr-B_fTvs_aem_pZtshY0Z86xz3f0MERemug",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Top Stories of the Day - Aug 6, 2026: A Thread of Posts (n/ ...",
+                "url": "https://x.com/PTI_News/status/2085373361153352095",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Press Trust of India",
+                "url": "https://www.ptinews.com/",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "claim": "China says, for 2000 years, Bharat has given them some values.",
+            "category": "statistic",
+            "searchQuery": "China says for 2000 years Bharat has given them some",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 73,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "We Dominated China Culturally For Over 2000 Years, Says ...",
+                "url": "https://www.ndtv.com/india-news/we-dominated-china-culturally-for-over-2-000-years-says-rajnath-singh-1395984",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "India culturally dominated China for over 2000 years",
+                "url": "https://timesofindia.indiatimes.com/india/india-culturally-dominated-china-for-over-2000-years-rajnath-singh/articleshow/61189681.cms",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "\"Hu Shih, the Chinese Indologist and renowned ...",
+                "url": "https://x.com/aravind/status/1967259538358473144?lang=en",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "“India Conquered and dominated China culturally for 20 ...",
+                "url": "https://www.reddit.com/r/China/comments/xktnl1/india_conquered_and_dominated_china_culturally/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "A Dialogue Between China and India Civilisations: The Role ...",
+                "url": "https://www.youtube.com/watch?v=Z9uPsRltlLs",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "claim": "Logout and Login with that one.Your active subscription(s) Account subscription benefits alongside Premium Stories, Editorials, Opinions and more.",
+            "category": "event",
+            "searchQuery": "Logout and Login with that one.Your active subscription s Account",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 60,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "Edit your subscription| Sling TV Help",
+                "url": "https://www.sling.com/help/en/account-questions/account-changes",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "How to manage Azure subscriptions with the Azure CLI",
+                "url": "https://learn.microsoft.com/en-us/cli/azure/manage-azure-subscriptions-azure-cli?view=azure-cli-latest",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "How to Check Active Paid Subscriptions and Services for Your ...",
+                "url": "https://www.youtube.com/watch?v=nJb-s18pFpo",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "How do I pull active subscriptions on device? iOS",
+                "url": "https://community.revenuecat.com/general-questions-7/how-do-i-pull-active-subscriptions-on-device-ios-2794",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Logging out profiles despite having three ...",
+                "url": "https://community.adobe.com/questions-9/logging-out-profiles-despite-having-three-profiles-with-separate-subscriptions-under-one-email-1290109",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "claim": "You are logged inLoading...LOGOUTYou don’t have any Active Subscription.Subscribe nowSubscribed with another email?",
+            "category": "event",
+            "searchQuery": "You are logged inLoading...LOGOUTYou don t have any Active Subscription.Subscribe",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 72,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "So on my account it says no active subscriptions yet they ...",
+                "url": "https://www.facebook.com/groups/362580344497686/posts/1933231417432563/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "I have active subscriptions but prompted on each device to ...",
+                "url": "https://www.amazonforum.com/s/question/0D56Q0000DpJaBSSQ0/i-have-active-subscriptions-but-prompted-on-each-device-to-sign-up-and-pay-again?language=en_US",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Apple TV knows I have an active Apple TV+ subscription ...",
+                "url": "https://www.reddit.com/r/appletv/comments/1cxqirc/apple_tv_knows_i_have_an_active_apple_tv/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Fix problems with subscriptions - Android - Google Play Help",
+                "url": "https://support.google.com/googleplay/answer/9818348?hl=en&co=GENIE.Platform%3DAndroid",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "How To Cancel Amazon Subscribe and Save",
+                "url": "https://www.youtube.com/watch?v=HkuHLmRRpQI",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "claim": "Youth need discussion, not dictation: Mohan BhagwatLaw for same sex couplesThe event’s organisers said that the questions Mr.",
+            "category": "event",
+            "searchQuery": "Youth need discussion not dictation Mohan BhagwatLaw for same sex",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 77,
+            "hallucinationRisk": false,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "RSS chief Mohan Bhagwat said that the LGBTQ community ...",
+                "url": "https://www.facebook.com/thesentinel.assam/posts/rss-chief-mohan-bhagwat-said-that-the-lgbtq-community-is-a-part-of-society-and-s/1419361353624627/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Gen Z's grievances are genuine: RSS chief Mohan Bhagwat",
+                "url": "https://www.thehindu.com/news/national/rss-chief-mohan-bhagwat-iimun-youth-conference/article71313689.ece",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Mohan Bhagwat calls for framework to accommodate same ...",
+                "url": "https://www.bignewsnetwork.com/news/279225296/mohan-bhagwat-calls-for-framework-to-accommodate-same-sex-couples-says-women-are-equal-partners-in-nation-building",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "RSS chief Mohan Bhagwat said Gen Z protesters should ...",
+                "url": "https://www.facebook.com/Outlookindia/posts/rss-chief-mohan-bhagwat-said-gen-z-protesters-should-not-be-labelled-anti-nation/1378402657758010/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "\"Don't say same-sex marriage. We have to devise some ...",
+                "url": "https://www.instagram.com/p/DbtJSflk076/",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c6",
+            "claim": "The interview was moderated by IIMUN’s Rishabh Shah, who was cheered by the crowd when he asked questions about youth being labelled as anti-national, empowerment of women within the RSS, and the Sangh’s stance on same sex marriages.Mr.",
+            "category": "event",
+            "searchQuery": "The interview was moderated by IIMUN s Rishabh Shah who",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 75,
+            "hallucinationRisk": false,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "Comment down “Link” to get the episode link in your DMs In ...",
+                "url": "https://www.instagram.com/reel/DRPk1VkD1cI/?hl=en",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "ॲड. आशिष शेलार Mangal Prabhat Lodha I.I.M.U.N.",
+                "url": "https://www.facebook.com/ameet.satam/posts/had-a-very-detailed-and-insightful-conversation-with-rishabh-shah-founder-of-iim/1309600230561557/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Rishabh Shah, Founder of I.I.M.U.N., says the issue goes ...",
+                "url": "https://www.facebook.com/IndiaToday/videos/rishabh-shah-founder-of-iimun-says-the-issue-goes-beyond-blaming-one-individual-/2195937734362390/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Rishabh Shah on I.I.M.U.N, Youth, AI, Politics & Podcasting ...",
+                "url": "https://www.youtube.com/watch?v=hAUgYFFQd0g",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Raghav Bahl in conversation with Rishabh Shah | I.I.M.U.N.'s ...",
+                "url": "https://www.linkedin.com/posts/iimunofficial_raghav-bahl-in-conversation-with-rishabh-activity-7290602133748338689-7BvF",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c7",
+            "claim": "RSS chief says ‘India’s time has come’, calls for stronger societal preparedness‘Education is not a business’Asked about the lathi charge against youth protesters in Delhi last month, Mr.",
+            "category": "event",
+            "searchQuery": "RSS chief says India s time has come calls for",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 82,
+            "hallucinationRisk": true,
+            "independentSources": 5,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (82%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "RSS chief says 'India's time has come', calls for stronger ...",
+                "url": "https://www.thehindu.com/news/national/rss-chief-says-indias-time-has-come-calls-for-stronger-societal-preparedness/article71062352.ece",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "RSS chief says “India's time has come” and calls for greater ...",
+                "url": "https://www.linkedin.com/posts/techwordnews_rss-chief-says-indias-time-has-come-and-activity-7468453964867489792-vuB1",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Mohan Bhagwat Declares 'India's Time Has Come', Says ...",
+                "url": "https://www.youtube.com/watch?v=xRQYqs_nvf0",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "'India's time has arrived, but we must be prepared': RSS ...",
+                "url": "https://www.facebook.com/ZeeNewsEnglish/posts/indias-time-has-arrived-but-we-must-be-prepared-rss-chief-mohan-bhagwatzeecards-/1451796010321193/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Mohan Bhagwat: 'India's time has arrived, but we must be..",
+                "url": "https://www.ap7am.com/en/128495/indias-time-has-arrived-but-we-must-be-prepared-rss-chief-mohan-bhagwat",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c8",
+            "claim": "“Those who wield the sword are holding it wrongly,” he said.On India’s relations with Pakistan and China, he said that civilian interactions and ties should be continued during peacetime.",
+            "category": "event",
+            "searchQuery": "Those who wield the sword are holding it wrongly he",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 73,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "The Sword of Romans 13",
+                "url": "https://billmuehlenberg.com/2015/02/13/the-sword-of-romans-13/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Romans 13 says that the God gives the government the right ...",
+                "url": "https://www.dckreider.com/blog-theological-musings/romans-13-says-that-the-god-gives-the-government-the-right-to-bear-the-sword-so-christians-can-bear-the-sword-as-long-as-we-are-working-in-a-governmental-role-our-government-decrees-that-we-can-protect-ourselves-therefore-we-are-an-arm-of-the-governm",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "What is the full extent of \"he who takes the sword shall die ...",
+                "url": "https://www.reddit.com/r/Catholicism/comments/3as7b9/what_is_the_full_extent_of_he_who_takes_the_sword/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "The Government and the Sword | Reformed Bible Studies ...",
+                "url": "https://learn.ligonier.org/devotionals/government-and-sword",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Romans 13:4",
+                "url": "https://www.biblegateway.com/verse/en/Romans%2013%3A4",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": null,
+        "summary": "MOCK_MODE: Most extracted claims (8 of them) could not be checked against available search evidence, so overall credibility could not be fully assessed. Only 100% of claims had any matching source found. Additional caution flags: 1 possible hallucination(s), 3 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Could not be fully verified — treat with normal caution and check for additional sources before sharing.",
+        "generatedAt": "2026-08-07T06:14:34.138Z"
+      },
+      "createdAt": "2026-08-07T06:14:34.138Z"
+    },
+    {
+      "id": "08a52636-4073-4a83-85ef-484237a6e3ef",
+      "userId": "ae89ca53-afd2-4b8f-8d19-2fede49e832a",
+      "inputType": "videoUrl",
+      "inputRef": "https://youtube.com/shorts/GYZJsM7sOKU?si=ULwQwntnzHjPJDr2",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": false,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "Ai animation cat video #cat #pets #3danimation #wildlife #funny #animallife",
+        "sourceUrl": "https://youtube.com/shorts/GYZJsM7sOKU?si=ULwQwntnzHjPJDr2",
+        "contentCategory": "video",
+        "verdict": "Likely Fake",
+        "verdictConfidence": 50,
+        "trustScore": 50,
+        "evidenceCoverage": 0,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 0,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 0,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 0
+        },
+        "claims": [],
+        "whatsIncorrect": [],
+        "visualAnalysis": {
+          "performed": true,
+          "scope": "Single thumbnail frame only — not a full frame-by-frame video scan.",
+          "verdict": "possible_signs_of_manipulation",
+          "confidence": 95,
+          "categories": {
+            "face": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "expression": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "background": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "textOrOverlay": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "other": {
+              "flagged": true,
+              "note": "The main subject is a highly stylized 3D animated character, indicating digital generation rather than a real photograph."
+            }
+          }
+        },
+        "summary": "The credibility of the content could not be fully assessed as no specific claims were found or verifiable through the fact-checking process. There is no evidence to support or refute any potential claims within the content. The trust score of 50/100 reflects this inability to verify information.",
+        "recommendation": "Verify further before sharing, as no claims could be substantiated or refuted.",
+        "generatedAt": "2026-08-10T04:14:21.265Z"
+      },
+      "createdAt": "2026-08-10T04:14:21.265Z"
+    },
+    {
+      "id": "6dc065f7-12cd-4bb4-ae9c-9d191d434851",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "text",
+      "inputRef": "Pasted text",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "Pasted Text",
+        "sourceUrl": null,
+        "contentCategory": "text",
+        "verdict": "Unclear",
+        "verdictConfidence": 50,
+        "trustScore": 50,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 1,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 1,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "narendra modi is prime minister of india",
+            "category": "other",
+            "searchQuery": "narendra modi is prime minister of india",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 76,
+            "hallucinationRisk": false,
+            "independentSources": 1,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "[MOCK] Reference result for: narendra modi is prime minister of india",
+                "url": "https://example.com/mock-source",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": null,
+        "crossVerificationNote": null,
+        "summary": "MOCK_MODE: Most extracted claims (1 of them) could not be checked against available search evidence, so overall credibility could not be fully assessed. Only 100% of claims had any matching source found. Additional caution flags: 0 possible hallucination(s), 1 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Could not be fully verified — treat with normal caution and check for additional sources before sharing.",
+        "generatedAt": "2026-08-18T11:58:50.025Z"
+      },
+      "createdAt": "2026-08-18T11:58:50.026Z"
+    },
+    {
+      "id": "1f970d5e-2007-4376-a20e-e13e884637ec",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "text",
+      "inputRef": "Pasted text",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "Pasted Text",
+        "sourceUrl": null,
+        "contentCategory": "text",
+        "verdict": "Likely Real",
+        "verdictConfidence": 81,
+        "trustScore": 81,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 1,
+        "breakdown": {
+          "verified": 1,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 0,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "Narendra Modi is the Prime Minister of India.",
+            "category": "other",
+            "searchQuery": "Narendra Modi Prime Minister India",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "verified",
+            "confidence": 81,
+            "evidenceConfidence": 95,
+            "llmStatedConfidence": 100,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "Supported by 5 evidence item(s).",
+            "sources": [
+              {
+                "title": "Prime Minister of India",
+                "url": "https://www.pmindia.gov.in/en/",
+                "reliabilityScore": 7
+              },
+              {
+                "title": "Narendra Modi - Prime Minister of India",
+                "url": "https://in.linkedin.com/in/narendramodi",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Narendra Modi",
+                "url": "https://en.wikipedia.org/wiki/Narendra_Modi",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Narendra Modi",
+                "url": "https://live.worldbank.org/en/experts/n/narendra-modi",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Narendra Modi (@narendramodi)",
+                "url": "https://www.instagram.com/narendramodi/?hl=en",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": null,
+        "crossVerificationNote": null,
+        "summary": "MOCK_MODE: Most extracted claims (1 verified) were supported by available evidence. Overall the content appears largely credible, though some claims (0 suspicious, 0 unverifiable) could not be fully confirmed. Additional caution flags: 0 possible hallucination(s), 1 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Reasonably safe to share, but verify any high-stakes claims independently.",
+        "generatedAt": "2026-08-18T12:20:39.117Z"
+      },
+      "createdAt": "2026-08-18T12:20:39.117Z"
+    },
+    {
+      "id": "2088a73f-bf10-4e9e-b4a1-c3b2dabf19e3",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "text",
+      "inputRef": "Pasted text",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "Pasted Text",
+        "sourceUrl": null,
+        "contentCategory": "text",
+        "verdict": "Likely Real",
+        "verdictConfidence": 81,
+        "trustScore": 81,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 1,
+        "breakdown": {
+          "verified": 1,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 0,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "Draupadi Murmu is the president of India.",
+            "category": "other",
+            "searchQuery": "Draupadi Murmu president India",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "verified",
+            "confidence": 81,
+            "evidenceConfidence": 95,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": false,
+            "independentSources": 4,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "Supported by 4 evidence item(s). Contradicted by 1 evidence item(s).",
+            "sources": [
+              {
+                "title": "Profile | President of India",
+                "url": "http://www.presidentofindia.gov.in/Profile",
+                "reliabilityScore": 7
+              },
+              {
+                "title": "President of India: Home",
+                "url": "http://www.presidentofindia.gov.in/",
+                "reliabilityScore": 7
+              },
+              {
+                "title": "Droupadi Murmu - 15th President of Republic of India",
+                "url": "https://www.linkedin.com/company/draupadi-murmu-15th-president-of-republic-of-india",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "President of India (@presidentofindia)",
+                "url": "https://www.instagram.com/presidentofindia/?hl",
+                "reliabilityScore": 4
+              },
+              {
+                "title": "Droupadi Murmu",
+                "url": "https://en.wikipedia.org/wiki/Droupadi_Murmu",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": null,
+        "crossVerificationNote": null,
+        "summary": "The content consists of a single claim stating that Draupadi Murmu is the president of India. This claim is largely supported by multiple sources, contributing to a high trust score of 81%. However, a temporal warning was flagged, and one piece of evidence contradicted the claim, suggesting the information might be outdated or there is some conflicting data. Despite strong verification, this minor discrepancy warrants attention.",
+        "recommendation": "Due to the temporal warning and the presence of conflicting evidence, it is recommended to verify this information further before sharing to ensure its current accuracy.",
+        "generatedAt": "2026-08-18T12:30:56.448Z"
+      },
+      "createdAt": "2026-08-18T12:30:56.448Z"
+    },
+    {
+      "id": "86444be0-4222-4245-a541-c71b1e0366ff",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "newsUrl",
+      "inputRef": "https://indianexpress.com/article/political-pulse/bjp-reshuffle-tarun-chugh-gujarat-incharge-jagdish-patel-up-role-10838585/?ref=hometop_hp",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "PM Modi’s man in Nitin Nabin’s core team: The Gujarat subplot in BJP rejig | Political Pulse News - The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/political-pulse/bjp-reshuffle-tarun-chugh-gujarat-incharge-jagdish-patel-up-role-10838585/?ref=hometop_hp",
+        "contentCategory": "news",
+        "verdict": "Likely Fake",
+        "verdictConfidence": 71,
+        "trustScore": 29,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 6,
+          "temporalWarning": 0,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 8,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 3,
+          "false": 1,
+          "unverifiable": 4,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "In 2014 and 2019, the BJP won all 26 parliamentary seats in the state.",
+            "category": "statistic",
+            "searchQuery": "In 2014 and 2019 the BJP won all 26 parliamentary",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "suspicious",
+            "confidence": 61,
+            "evidenceConfidence": 61,
+            "llmStatedConfidence": 90,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "Supported by 1 evidence item(s).",
+            "sources": [
+              {
+                "title": "2014 Indian general election",
+                "url": "https://en.wikipedia.org/wiki/2014_Indian_general_election",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "India general election 2019: What happened?",
+                "url": "https://www.bbc.com/news/world-asia-india-48366944",
+                "reliabilityScore": 8
+              },
+              {
+                "title": "India after the 2014 general elections: BJP dominance and ...",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/13597566.2019.1614921",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "India elections 2019: All the latest updates",
+                "url": "https://www.aljazeera.com/news/2019/5/26/india-elections-2019-all-the-latest-updates",
+                "reliabilityScore": 4
+              },
+              {
+                "title": "Lok Sabha 2019",
+                "url": "https://www.indiavotes.com/lok-sabha/2019/",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "claim": "A BJP source said, “The 2027 Gujarat elections are likely to set the tone for the 2029 general election.",
+            "category": "statistic",
+            "searchQuery": "A BJP source said The 2027 Gujarat elections are likely",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "suspicious",
+            "confidence": 35,
+            "evidenceConfidence": 61,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": true,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "Supported by 1 evidence item(s). The model expressed high confidence (95%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "New state boss, UP role for PM Modi aide: Gujarat subplot ...",
+                "url": "https://indianexpress.com/article/political-pulse/bjp-reshuffle-tarun-chugh-gujarat-incharge-jagdish-patel-up-role-10838585/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "BJP Big Reshuffle Ahead of 2027 Elections | New In-Charges ...",
+                "url": "https://www.facebook.com/OfficialGulistanNews/posts/bjp-big-reshuffle-ahead-of-2027-elections-new-in-charges-for-up-punjab-gujarat/1461887022535363/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Next Gujarat Legislative Assembly election",
+                "url": "https://en.wikipedia.org/wiki/Next_Gujarat_Legislative_Assembly_election",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "BJP Appoints New State In-Charges Ahead Of 2027 Polls",
+                "url": "https://www.facebook.com/abplive/posts/bjp-appoints-new-state-in-charges-ahead-of-2027-polls-check-picks-for-up-gujarat/1586167566876190/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Will Gujarat and HP election be held in December next ...",
+                "url": "https://www.instagram.com/p/DaAdx51jJ14/?hl=en",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "claim": "The party suffered a setback in Uttar Pradesh in 2024, its seat score dropping by 29.",
+            "category": "statistic",
+            "searchQuery": "The party suffered a setback in Uttar Pradesh in 2024",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": true,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (95%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "BJP vs BJP In Western UP After Poll Results, And Now A ...",
+                "url": "https://www.ndtv.com/india-news/2024-lok-sabha-election-result-sanjeev-balyan-sangeet-som-bjp-vs-bjp-in-western-up-after-poll-results-and-now-a-press-note-twist-5881880",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "BJP suffers huge setback in UP, Cong-SP win more seats",
+                "url": "https://www.rediff.com/news/report/up-shocker-for-bjp-india-bloc-leads-in-more-seats/20240604.htm",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "The BJP Debacle in Uttar Pradesh",
+                "url": "https://www.isas.nus.edu.sg/papers/the-bjp-debacle-in-uttar-pradesh/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "UP results a setback not just for the BJP, but for Yogi ...",
+                "url": "https://www.newindianexpress.com/web-only/2024/Jun/04/up-results-a-setback-not-just-for-the-bjp-but-for-yogi-adityanath-too",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "BJP suffers major setback in UP, contrasts with success in ...",
+                "url": "https://www.moneycontrol.com/news/opinion/bjp-suffers-major-setback-in-uttar-pradesh-contrasts-with-success-in-madhya-pradesh-12740415.html",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "claim": "The Congress won 77 seats, its best show since 1995.",
+            "category": "statistic",
+            "searchQuery": "The Congress won 77 seats its best show since 1995.",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "false",
+            "confidence": 95,
+            "evidenceConfidence": 95,
+            "llmStatedConfidence": 68,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "Contradicted by 2 evidence item(s).",
+            "sources": [
+              {
+                "title": "Assessing the 104th Congress: (This one is different)",
+                "url": "https://www.brookings.edu/articles/assessing-the-104th-congress-this-one-is-different/",
+                "reliabilityScore": 6
+              },
+              {
+                "title": "Party Divisions of the House of Representatives, 1789 to Present",
+                "url": "https://history.house.gov/Institution/Party-Divisions/Party-Divisions/",
+                "reliabilityScore": 7
+              },
+              {
+                "title": "Some members of Congress have been there for decades ...",
+                "url": "https://www.pewresearch.org/short-reads/2022/06/09/some-members-of-congress-have-been-there-for-decades-but-seats-typically-change-hands-more-frequently/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "In today's Congress, three seats can decide everything.",
+                "url": "https://usafacts.org/articles/the-viz-lab/in-todays-congress-three-seats-can-decide-everything/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "CNN Politics",
+                "url": "https://www.facebook.com/cnnpolitics/posts/the-current-congress-is-among-the-oldest-in-us-history-a-trend-that-is-expected-/1395518415767972/",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c5",
+            "claim": "“Had Patel not been there in Varanasi in 2024, the winning margin of PM Modi would have been narrow,” said a BJP leader.",
+            "category": "statistic",
+            "searchQuery": "Had Patel not been there in Varanasi in 2024 the",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "suspicious",
+            "confidence": 35,
+            "evidenceConfidence": 61,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": true,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "Supported by 1 evidence item(s). The model expressed high confidence (95%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "New state boss, UP role for PM Modi aide: Gujarat subplot ...",
+                "url": "https://indianexpress.com/article/political-pulse/bjp-reshuffle-tarun-chugh-gujarat-incharge-jagdish-patel-up-role-10838585/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "“Guided by Khaki, Blessed in Kashi” 40 years… and not ...",
+                "url": "https://www.facebook.com/uppolice/posts/guided-by-khaki-blessed-in-kashi40-years-and-not-even-a-glimpse-of-a-citythat-si/1345705884352062/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Leaving Mumbai's Chaos for Varanasi | India 2024",
+                "url": "https://www.youtube.com/watch?v",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Kash Patel became the first Indian-origin and openly Hindu ...",
+                "url": "https://www.instagram.com/p/DGUtm0DRVBb/?hl",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "No plans to contest Varanasi Lok Sabha seat: Apna Dal",
+                "url": "https://timesofindia.indiatimes.com/india/no-plans-to-contest-varanasi-lok-sabha-seat-apna-dal/articleshow/67301655.cms",
+                "reliabilityScore": 4
+              }
+            ]
+          },
+          {
+            "id": "c6",
+            "claim": "He is performing the duties earlier handled by late Sunil Oza in Uttar Pradesh.” Oza, originally from Bhavnagar in Gujarat, died of a heart attack in December 2023.",
+            "category": "statistic",
+            "searchQuery": "He is performing the duties earlier handled by late Sunil",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": true,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (95%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "Prathmesh Mishra's Post",
+                "url": "https://www.linkedin.com/posts/prathmesh-mishra-9282641_my-first-boss-late-mr-sunil-tandon-was-activity-7193603731970482176-RJhB",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Rockford University",
+                "url": "https://www.facebook.com/RockfordUniversity/posts/while-i-never-had-the-privilege-of-working-directly-with-sunil-at-rockford-unive/2057265148386183/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Sunil Dimple J&K Leader & Social Worker.",
+                "url": "https://www.facebook.com/SunilDimpleSocialActivist/posts/breaking-sunil-dimple-alleged-the-jk-youths-is-disappointed-with-the-cabinet-mee/1433691682101622/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Sunil I. Gupta",
+                "url": "https://www.enterprisecommunity.org/about/sunil-gupta",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Is Sunil Shetty disappointed about not being part of Border 2? ...",
+                "url": "https://www.youtube.com/watch?v=EHUIEoWZo6w",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c7",
+            "claim": "In the 2024 Lok Sabha polls, he is believed to have played a key role in the Prime Minister’s victory in Varanasi, Uttar Pradesh.",
+            "category": "statistic",
+            "searchQuery": "In the 2024 Lok Sabha polls he is believed to",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "dated-event",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 90,
+            "hallucinationRisk": true,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (90%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "India elections 2024: When were they, who could vote and ...",
+                "url": "https://www.bbc.com/news/world-asia-india-68678594",
+                "reliabilityScore": 8
+              },
+              {
+                "title": "Explainer: India's Lok Sabha election 2024",
+                "url": "https://www.reuters.com/world/india/indias-lok-sabha-election-2024-what-are-key-issues-2024-04-19/",
+                "reliabilityScore": 9
+              },
+              {
+                "title": "Who is winning the Lok Sabha Elections 2024? Ten takeaways",
+                "url": "https://www.youtube.com/watch?v=5xu28GzI_Zw",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "2024 Indian general election",
+                "url": "https://en.wikipedia.org/wiki/2024_Indian_general_election",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Lok Sabha 2024",
+                "url": "https://www.indiavotes.com/lok-sabha/2024/",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c8",
+            "claim": "In Varanasi alone, work worth Rs 70,000 crore has been done.",
+            "category": "statistic",
+            "searchQuery": "In Varanasi alone work worth Rs 70 000 crore has",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 85,
+            "hallucinationRisk": true,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (85%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "PM Modi To Release Rs 20000 Crore For Farmers In ...",
+                "url": "https://swarajyamag.com/news-brief/pm-kisan-disbursement-to-hit-rs-324-lakh-crore-as-pm-modi-set-to-release-another-rs-20000-crore-for-farmers-from-varanasi",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "The Rs 800-crore Varanasi ropeway has become a national ...",
+                "url": "https://www.facebook.com/theprintindia/videos/bridges-are-falling-metros-are-stalling-varanasi-ropeway-is-the-fix-for-an-ancie/1500058321255517/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Your Rs 70000 salary may secretly be an asset worth crore ...",
+                "url": "https://m.economictimes.com/magazines/panache/your-rs-70000-salary-may-secretly-be-an-asset-worth-crore-says-ca-as-he-explains-the-math/articleshow/129505680.cms",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "In Varanasi, over 150 Blinkit gig workers went on strike ...",
+                "url": "https://www.instagram.com/p/DJDaYvjsv-b/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Varanasi is witnessing a major surge in tourism-driven ...",
+                "url": "https://www.instagram.com/reel/DS9CIIYkwXS/?hl=en",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [
+          {
+            "claim": "In 2014 and 2019, the BJP won all 26 parliamentary seats in the state.",
+            "verdict": "suspicious",
+            "whatsWrong": "Supported by 1 evidence item(s).",
+            "evidence": [
+              {
+                "title": "2014 Indian general election",
+                "url": "https://en.wikipedia.org/wiki/2014_Indian_general_election"
+              },
+              {
+                "title": "India general election 2019: What happened?",
+                "url": "https://www.bbc.com/news/world-asia-india-48366944"
+              },
+              {
+                "title": "India after the 2014 general elections: BJP dominance and ...",
+                "url": "https://www.tandfonline.com/doi/full/10.1080/13597566.2019.1614921"
+              },
+              {
+                "title": "India elections 2019: All the latest updates",
+                "url": "https://www.aljazeera.com/news/2019/5/26/india-elections-2019-all-the-latest-updates"
+              },
+              {
+                "title": "Lok Sabha 2019",
+                "url": "https://www.indiavotes.com/lok-sabha/2019/"
+              }
+            ]
+          },
+          {
+            "claim": "A BJP source said, “The 2027 Gujarat elections are likely to set the tone for the 2029 general election.",
+            "verdict": "suspicious",
+            "whatsWrong": "Supported by 1 evidence item(s). The model expressed high confidence (95%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "evidence": [
+              {
+                "title": "New state boss, UP role for PM Modi aide: Gujarat subplot ...",
+                "url": "https://indianexpress.com/article/political-pulse/bjp-reshuffle-tarun-chugh-gujarat-incharge-jagdish-patel-up-role-10838585/"
+              },
+              {
+                "title": "BJP Big Reshuffle Ahead of 2027 Elections | New In-Charges ...",
+                "url": "https://www.facebook.com/OfficialGulistanNews/posts/bjp-big-reshuffle-ahead-of-2027-elections-new-in-charges-for-up-punjab-gujarat/1461887022535363/"
+              },
+              {
+                "title": "Next Gujarat Legislative Assembly election",
+                "url": "https://en.wikipedia.org/wiki/Next_Gujarat_Legislative_Assembly_election"
+              },
+              {
+                "title": "BJP Appoints New State In-Charges Ahead Of 2027 Polls",
+                "url": "https://www.facebook.com/abplive/posts/bjp-appoints-new-state-in-charges-ahead-of-2027-polls-check-picks-for-up-gujarat/1586167566876190/"
+              },
+              {
+                "title": "Will Gujarat and HP election be held in December next ...",
+                "url": "https://www.instagram.com/p/DaAdx51jJ14/?hl=en"
+              }
+            ]
+          },
+          {
+            "claim": "The Congress won 77 seats, its best show since 1995.",
+            "verdict": "false",
+            "whatsWrong": "Contradicted by 2 evidence item(s).",
+            "evidence": [
+              {
+                "title": "Assessing the 104th Congress: (This one is different)",
+                "url": "https://www.brookings.edu/articles/assessing-the-104th-congress-this-one-is-different/"
+              },
+              {
+                "title": "Party Divisions of the House of Representatives, 1789 to Present",
+                "url": "https://history.house.gov/Institution/Party-Divisions/Party-Divisions/"
+              },
+              {
+                "title": "Some members of Congress have been there for decades ...",
+                "url": "https://www.pewresearch.org/short-reads/2022/06/09/some-members-of-congress-have-been-there-for-decades-but-seats-typically-change-hands-more-frequently/"
+              },
+              {
+                "title": "In today's Congress, three seats can decide everything.",
+                "url": "https://usafacts.org/articles/the-viz-lab/in-todays-congress-three-seats-can-decide-everything/"
+              },
+              {
+                "title": "CNN Politics",
+                "url": "https://www.facebook.com/cnnpolitics/posts/the-current-congress-is-among-the-oldest-in-us-history-a-trend-that-is-expected-/1395518415767972/"
+              }
+            ]
+          },
+          {
+            "claim": "“Had Patel not been there in Varanasi in 2024, the winning margin of PM Modi would have been narrow,” said a BJP leader.",
+            "verdict": "suspicious",
+            "whatsWrong": "Supported by 1 evidence item(s). The model expressed high confidence (95%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "evidence": [
+              {
+                "title": "New state boss, UP role for PM Modi aide: Gujarat subplot ...",
+                "url": "https://indianexpress.com/article/political-pulse/bjp-reshuffle-tarun-chugh-gujarat-incharge-jagdish-patel-up-role-10838585/"
+              },
+              {
+                "title": "“Guided by Khaki, Blessed in Kashi” 40 years… and not ...",
+                "url": "https://www.facebook.com/uppolice/posts/guided-by-khaki-blessed-in-kashi40-years-and-not-even-a-glimpse-of-a-citythat-si/1345705884352062/"
+              },
+              {
+                "title": "Leaving Mumbai's Chaos for Varanasi | India 2024",
+                "url": "https://www.youtube.com/watch?v"
+              },
+              {
+                "title": "Kash Patel became the first Indian-origin and openly Hindu ...",
+                "url": "https://www.instagram.com/p/DGUtm0DRVBb/?hl"
+              },
+              {
+                "title": "No plans to contest Varanasi Lok Sabha seat: Apna Dal",
+                "url": "https://timesofindia.indiatimes.com/india/no-plans-to-contest-varanasi-lok-sabha-seat-apna-dal/articleshow/67301655.cms"
+              }
+            ]
+          }
+        ],
+        "visualAnalysis": null,
+        "crossVerificationNote": null,
+        "summary": "The content has a low trust score of 29/100, indicating significant credibility concerns. While all claims had at least one search source found, a substantial portion of the content is problematic, with one claim identified as false and three others flagged as suspicious. A significant concern is the high risk of hallucination, as six claims were flagged because the model's confidence in them outpaced what the retrieved evidence actually supported. Additionally, four claims were unverifiable, meaning their accuracy could not be determined.",
+        "recommendation": "Given the low trust score, the presence of false and suspicious claims, and the high risk of hallucination for multiple statements, this content should not be shared without extensive independent verification.",
+        "generatedAt": "2026-08-18T12:33:15.407Z"
+      },
+      "createdAt": "2026-08-18T12:33:15.407Z"
+    },
+    {
+      "id": "0f7f84a3-1424-4832-882f-355269d4bd81",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "videoUrl",
+      "inputRef": "https://youtube.com/shorts/GYZJsM7sOKU?si=jVBnUr0uIGOwPLje",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false
+      },
+      "report": {
+        "title": "Ai animation cat video #cat #pets #3danimation #wildlife #funny #animallife",
+        "sourceUrl": "https://youtube.com/shorts/GYZJsM7sOKU?si=jVBnUr0uIGOwPLje",
+        "contentCategory": "video",
+        "verdict": "Likely Real",
+        "verdictConfidence": 78,
+        "trustScore": 78,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 1,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 4,
+        "breakdown": {
+          "verified": 2,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 2,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "The video is an AI animation.",
+            "category": "other",
+            "searchQuery": "AI animation cat video",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "verified",
+            "confidence": 95,
+            "evidenceConfidence": 95,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "Supported by 5 evidence item(s).",
+            "sources": [
+              {
+                "title": "\"Most Beautiful AI Cat You've Ever Seen!  #Shor - video ...",
+                "url": "https://www.dailymotion.com/video/xa28nda",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "AI Cat Video Generator",
+                "url": "https://www.imagine.art/features/ai-cat-video-generator",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Funny AI Cat Animation Videos: Chubby Orange Cat Stories",
+                "url": "https://www.tiktok.com/@cuteandchubbycat/video/7623448887138766094",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Ai Cat Videos",
+                "url": "https://www.pinterest.com/vidhero1/ai-cat-videos/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "AI Cat Story: Cute Kitten Has Trouble While Eating Ice Cream ...",
+                "url": "https://www.youtube.com/watch?v=siZ0JeYExy0",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "claim": "The video features a cat.",
+            "category": "other",
+            "searchQuery": "cat video content",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "verified",
+            "confidence": 95,
+            "evidenceConfidence": 95,
+            "llmStatedConfidence": 95,
+            "hallucinationRisk": false,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "Supported by 5 evidence item(s).",
+            "sources": [
+              {
+                "title": "20 Top Cat Videos on the Web",
+                "url": "https://abcnews.com/Technology/20-top-cat-videos-web/story?id=17150083",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Cat Videos - HD and 4K to download",
+                "url": "https://www.magnific.com/videos/cat",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "20 Minutes Of The Funniest Cats On The Internet",
+                "url": "https://www.youtube.com/watch?v=paWE-GvDO1c",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Cat Videos, Download The BEST Free 4k Stock ...",
+                "url": "https://www.pexels.com/search/videos/cat/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Cat Videos",
+                "url": "https://www.youtube.com/playlist?list=PLYgB03ey6x4-8eLerAN-KjwthiB4BTf_I",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "claim": "The video uses 3D animation.",
+            "category": "other",
+            "searchQuery": "3D animation video",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 90,
+            "hallucinationRisk": true,
+            "independentSources": 4,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. The model expressed high confidence (90%) that outpaced what the retrieved evidence actually supports — treated as a possible hallucination and downgraded.",
+            "sources": [
+              {
+                "title": "3D Animation",
+                "url": "https://www.youtube.com/playlist?list=PLMTDxt7L_MNVQ0NJKEwTjPQGV3W_53SwR",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Free 3d Animation Videos",
+                "url": "https://www.pexels.com/search/videos/3d%20animation/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Animated Video Maker Online",
+                "url": "https://www.renderforest.com/animation-videos",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Animate 3D by DeepMotion | AI Motion Capture",
+                "url": "https://www.deepmotion.com/animate-3d",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Create this AWESOME 3D Animation in 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=l43v4mpitdE",
+                "reliabilityScore": 3
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "claim": "The video is published on the 'Manoranjan Tales' channel.",
+            "category": "other",
+            "searchQuery": "Manoranjan Tales channel video",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "claimType": "factual",
+            "importance": "minor",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 79,
+            "hallucinationRisk": false,
+            "independentSources": 3,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim.",
+            "sources": [
+              {
+                "title": "Manoranjan Tales's YouTube Statistics",
+                "url": "https://socialblade.com/youtube/handle/manoranjan_tales",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Manoranjan Tales",
+                "url": "https://www.youtube.com/@manoranjan_tales",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Manoranjan Tales",
+                "url": "https://www.youtube.com/shorts/2EymGYocnQw",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Manoranjan",
+                "url": "https://www.primevideo.com/detail/0U91222CVS5POHQBNYS51WC3D2",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": {
+          "performed": true,
+          "scope": "Single thumbnail frame only — not a full frame-by-frame video scan.",
+          "verdict": "no_signs_detected",
+          "confidence": 60,
+          "categories": {
+            "face": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "expression": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "background": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "textOrOverlay": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            },
+            "other": {
+              "flagged": false,
+              "note": "No signs detected in this image."
+            }
+          }
+        },
+        "crossVerificationNote": "For video content, claim verification (checking what is said/claimed against evidence) and visual analysis (screening the thumbnail image for tampering signs) are independent checks — see `claims` for the former and `visualAnalysis` for the latter. A claim can be verified true even if visual analysis flags concerns, or vice versa.",
+        "summary": "Most extracted claims (2 verified) were supported by available evidence. Overall the content appears largely credible, though some claims (0 suspicious, 2 unverifiable) could not be fully confirmed. Additional caution flags: 1 possible hallucination(s), 1 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Reasonably safe to share, but verify any high-stakes claims independently.",
+        "generatedAt": "2026-08-18T12:37:49.444Z"
+      },
+      "createdAt": "2026-08-18T12:37:49.444Z"
+    },
+    {
+      "id": "46b44d1d-59e8-4e11-a1f4-9235eb999f96",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "text",
+      "inputRef": "Pasted text",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false,
+        "scoringConfig": null
+      },
+      "report": {
+        "title": "Pasted Text",
+        "sourceUrl": null,
+        "contentCategory": "text",
+        "verdict": "Unclear",
+        "verdictConfidence": 50,
+        "trustScore": 74,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 1,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 1,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "narendra modi is prime minister of india",
+            "category": "other",
+            "searchQuery": "narendra modi is prime minister of india",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "unverifiable",
+            "confidence": 17,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 76,
+            "hallucinationRisk": false,
+            "independentSources": 1,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. Confirmed by a second independent evidence review before finalizing this verdict.",
+            "sources": [
+              {
+                "title": "[MOCK] Reference result for: narendra modi is prime minister of india",
+                "url": "https://example.com/mock-source",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": null,
+        "crossVerificationNote": null,
+        "scoringPolicy": {
+          "weights": {
+            "source": 25,
+            "evidence": 35,
+            "claims": 25,
+            "visual": 15
+          },
+          "thresholds": {
+            "fake": 40,
+            "real": 75,
+            "docPenalty": 4,
+            "mediaPenalty": 3
+          }
+        },
+        "mergedClaimCount": 0,
+        "summary": "Most extracted claims (1 of them) could not be checked against available search evidence, so overall credibility could not be fully assessed. Only 100% of claims had any matching source found. Additional caution flags: 0 possible hallucination(s), 1 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Could not be fully verified — treat with normal caution and check for additional sources before sharing.",
+        "generatedAt": "2026-08-19T05:35:59.211Z"
+      },
+      "createdAt": "2026-08-19T05:35:59.211Z"
+    },
+    {
+      "id": "14990c16-5149-429d-a768-cf61e8fcf9f1",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "text",
+      "inputRef": "Pasted text",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false,
+        "scoringConfig": null
+      },
+      "report": {
+        "title": "Pasted Text",
+        "sourceUrl": null,
+        "contentCategory": "text",
+        "verdict": "Likely Real",
+        "verdictConfidence": 86,
+        "trustScore": 86,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 1,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 1,
+        "breakdown": {
+          "verified": 1,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 0,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "Narendra Modi is the Prime Minister of India.",
+            "category": "other",
+            "searchQuery": "Narendra Modi Prime Minister India",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "current",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "verified",
+            "confidence": 81,
+            "evidenceConfidence": 95,
+            "llmStatedConfidence": 100,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": "This claim asserts a current/ongoing state, but no recent source was found among the evidence — it may rely on outdated information.",
+            "quoteCheck": null,
+            "explanation": "Supported by 5 evidence item(s).",
+            "sources": [
+              {
+                "title": "Narendra Modi",
+                "url": "https://live.worldbank.org/en/experts/n/narendra-modi",
+                "reliabilityScore": 8
+              },
+              {
+                "title": "Prime Minister of India",
+                "url": "https://www.pmindia.gov.in/en/",
+                "reliabilityScore": 7
+              },
+              {
+                "title": "Narendra Modi (@narendramodi)",
+                "url": "https://www.instagram.com/narendramodi/?hl=en",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Narendra Modi - Prime Minister of India",
+                "url": "https://in.linkedin.com/in/narendramodi",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Narendra Modi",
+                "url": "https://en.wikipedia.org/wiki/Narendra_Modi",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": null,
+        "crossVerificationNote": null,
+        "scoringPolicy": {
+          "weights": {
+            "source": 25,
+            "evidence": 35,
+            "claims": 25,
+            "visual": 15
+          },
+          "thresholds": {
+            "fake": 40,
+            "real": 75,
+            "docPenalty": 4,
+            "mediaPenalty": 3
+          }
+        },
+        "mergedClaimCount": 0,
+        "summary": "Most extracted claims (1 verified) were supported by available evidence. Overall the content appears largely credible, though some claims (0 suspicious, 0 unverifiable) could not be fully confirmed. Additional caution flags: 0 possible hallucination(s), 1 outdated-evidence warning(s), 0 unconfirmed quote(s).",
+        "recommendation": "Reasonably safe to share, but verify any high-stakes claims independently.",
+        "generatedAt": "2026-08-19T05:50:53.212Z"
+      },
+      "createdAt": "2026-08-19T05:50:53.213Z"
+    },
+    {
+      "id": "612f9da7-aa1b-40f3-b95e-235fecbff007",
+      "userId": "f285e454-5dc9-4c7a-a9ed-04a0f2796b59",
+      "inputType": "videoUrl",
+      "inputRef": "https://youtube.com/shorts/GYZJsM7sOKU?si=h_6VyX_uaNgh_jjC",
+      "settings": {
+        "factChecking": true,
+        "fakeNewsDetection": true,
+        "businessReportVerification": false,
+        "scoringConfig": null
+      },
+      "report": {
+        "title": "Ai animation cat video #cat #pets #3danimation #wildlife #funny #animallife",
+        "sourceUrl": "https://youtube.com/shorts/GYZJsM7sOKU?si=h_6VyX_uaNgh_jjC",
+        "contentCategory": "video",
+        "verdict": "Unclear",
+        "verdictConfidence": 50,
+        "trustScore": 70,
+        "evidenceCoverage": 100,
+        "flags": {
+          "hallucinationRisk": 0,
+          "temporalWarning": 0,
+          "unconfirmedQuote": 0
+        },
+        "claimsFound": 1,
+        "breakdown": {
+          "verified": 0,
+          "suspicious": 0,
+          "false": 0,
+          "unverifiable": 1,
+          "not-applicable": 0
+        },
+        "claims": [
+          {
+            "id": "c1",
+            "claim": "TITLE: Ai animation cat video #cat #pets #3danimation #wildlife #funny #animallife\nCHANNEL: Manoranjan Tales\n\n(No captions/transcript could be retriev",
+            "category": "other",
+            "searchQuery": "TITLE Ai animation cat video cat pets 3danimation wildlife funny",
+            "isQuote": false,
+            "attributedTo": null,
+            "temporalScope": "undated",
+            "claimType": "factual",
+            "importance": "major",
+            "verdict": "unverifiable",
+            "confidence": 20,
+            "evidenceConfidence": 20,
+            "llmStatedConfidence": 59,
+            "hallucinationRisk": false,
+            "independentSources": 5,
+            "temporalWarning": null,
+            "quoteCheck": null,
+            "explanation": "No evidence directly supported or refuted this claim. Confirmed by a second independent evidence review before finalizing this verdict.",
+            "sources": [
+              {
+                "title": "Ai animation cat video #cat #pets #3danimation #wildlife ...",
+                "url": "https://www.dailymotion.com/video/xap6aoq",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Ai animation cat video #cat #pets #3danimation #wildlife ...",
+                "url": "https://www.instagram.com/p/DbsRkkdP6qH/",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Ai animation cat video #cat #pets #3danimation #wildlife ...",
+                "url": "https://www.youtube.com/shorts/o6j7hBzOUVI",
+                "reliabilityScore": 3
+              },
+              {
+                "title": "Ai animation cat video - #cat - #pets - #3danimation - #wildlife",
+                "url": "https://www.facebook.com/61590652682611/videos/ai-animation-cat-video-cat-pets-3danimation-wildlife-funny-animallife/906740492480916/",
+                "reliabilityScore": 1
+              },
+              {
+                "title": "Talking Animals - Apps on Google Play",
+                "url": "https://play.google.com/store/apps/details?id=toppy.talkingpets.my&hl=en_US",
+                "reliabilityScore": 3
+              }
+            ]
+          }
+        ],
+        "whatsIncorrect": [],
+        "visualAnalysis": {
+          "performed": true,
+          "scope": "Only a fallback cover frame was available, so AI-generation detection is inconclusive and should not be treated as a full video scan.",
+          "frameCount": 1,
+          "frameTimestamps": [
+            null
+          ],
+          "duration": null,
+          "aiGenerationVerdict": "inconclusive",
+          "confidence": 35,
+          "riskScore": 35,
+          "summary": "MOCK_MODE: 1 timeline frames were extracted, but no real vision model was used.",
+          "categories": {
+            "faceIdentity": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            },
+            "lipSyncAndExpression": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            },
+            "handsAndObjects": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            },
+            "backgroundGeometry": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            },
+            "temporalConsistency": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            },
+            "renderingArtifacts": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            },
+            "textAndOverlays": {
+              "flagged": false,
+              "severity": "low",
+              "note": "MOCK_MODE: visual model not connected."
+            }
+          },
+          "strongSignals": [],
+          "limitations": [
+            "MOCK_MODE is enabled; this result is not an AI-generation prediction."
+          ],
+          "frameCountAnalyzed": 1,
+          "verdict": "inconclusive"
+        },
+        "crossVerificationNote": "For video content, claim verification (checking what is said/claimed against evidence) and visual analysis (screening the thumbnail image for tampering signs) are independent checks — see `claims` for the former and `visualAnalysis` for the latter. A claim can be verified true even if visual analysis flags concerns, or vice versa.",
+        "scoringPolicy": {
+          "weights": {
+            "source": 25,
+            "evidence": 35,
+            "claims": 25,
+            "visual": 15
+          },
+          "thresholds": {
+            "fake": 40,
+            "real": 75,
+            "docPenalty": 4,
+            "mediaPenalty": 3
+          }
+        },
+        "mergedClaimCount": 0,
+        "summary": "Most extracted claims (1 of them) could not be checked against available search evidence, so overall credibility could not be fully assessed. Only 100% of claims had any matching source found.",
+        "recommendation": "Could not be fully verified — treat with normal caution and check for additional sources before sharing.",
+        "generatedAt": "2026-08-19T05:53:01.672Z"
+      },
+      "createdAt": "2026-08-19T05:53:01.673Z"
+    }
+  ]
+}
