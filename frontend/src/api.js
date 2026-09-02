@@ -34,4 +34,13 @@ export const analyze = (formData) =>
 export const getHistory = () => api.get('/analyze/history');
 export const getReport = (id) => api.get(`/analyze/${id}`);
 
+export const getMe = () => api.get('/auth/me');
+export const updateMe = (fields) => api.patch('/auth/me', fields);
+export const getUsage = () => api.get('/account/usage');
+export const getAccountSources = () => api.get('/account/sources');
+export const getAccountStats = () => api.get('/account/stats');
+export const getNotifications = () => api.get('/account/notifications');
+export const markNotificationsRead = () => api.post('/account/notifications/mark-read');
+export const requestUpgrade = (plan, cycle) => api.post('/account/upgrade-request', { plan, cycle });
+
 export default api;

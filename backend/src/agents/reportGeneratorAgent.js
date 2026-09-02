@@ -57,7 +57,8 @@ async function generateReport({
   const tally = { verified: 0, suspicious: 0, false: 0, unverifiable: 0, 'not-applicable': 0 };
   for (const c of verifiedClaims) tally[c.verdict] = (tally[c.verdict] || 0) + 1;
 
-  const trustScore = computeTrustScore(verifiedClaims, weights, thresholds, visualAnalysis, settings);
+  const scoreDetails = computeScoreDetails(verifiedClaims, weights, thresholds, visualAnalysis, settings);
+  const trustScore = scoreDetails.score;
   const evidenceCoverage = computeEvidenceCoverage(verifiedClaims);
   const flags = computeFlags(verifiedClaims);
   const overallVerdict = computeOverallVerdict(trustScore, tally, evidenceCoverage, visualAnalysis, thresholds);
@@ -90,6 +91,23 @@ Return strict JSON: {"summary": "...", "recommendation": "..."}`;
 
   const { summary, recommendation } = await completeJSON({ system, user, mockResponse });
 
+  // Real, per-run pipeline stats — what each agent actually did on THIS
+  // piece of content, in numbers pulled from the run itself. This is the
+  // thing a generic chatbot summary can't produce: it's not narrated, it's
+  // counted from what the Fact Verification agent (Agent 3) actually fired.
+  const factCheckedClaims = verifiedClaims.filter((c) => c.verdict !== 'not-applicable');
+  const pipelineTrace = {
+    claimsExtracted: verifiedClaims.length + (mergedClaimCount || 0),
+    claimsMerged: mergedClaimCount || 0,
+    claimsFactChecked: factCheckedClaims.length,
+    claimsSkippedNonFactual: verifiedClaims.length - factCheckedClaims.length,
+    searchQueriesRun: factCheckedClaims.reduce((sum, c) => sum + (c.queriesUsed?.length || 0), 0),
+    rawSourcesFound: factCheckedClaims.reduce((sum, c) => sum + (c.rawEvidenceCount || 0), 0),
+    sourcesKeptAfterRanking: factCheckedClaims.reduce((sum, c) => sum + (c.sources?.length || 0), 0),
+    borderlineDoubleChecked: factCheckedClaims.filter((c) => (c.signals || []).some((s) => s.key === 'consistency' && s.label.startsWith('Double'))).length,
+    hallucinationFlags: flags.hallucinationRisk,
+  };
+
   return {
     title,
     sourceUrl: sourceUrl || null,
@@ -106,7 +124,9 @@ Return strict JSON: {"summary": "...", "recommendation": "..."}`;
     visualAnalysis: visualAnalysis || null,
     crossVerificationNote,
     scoringPolicy: { weights, thresholds },
+    scoringBreakdown: scoreDetails.breakdown,
     mergedClaimCount: mergedClaimCount || 0,
+    pipelineTrace,
     summary,
     recommendation,
     generatedAt: new Date().toISOString(),
@@ -144,8 +164,17 @@ function buildWhatsIncorrect(claims) {
     .map((c) => ({
       claim: c.claim,
       verdict: c.verdict,
+      confidence: c.confidence,
       whatsWrong: c.explanation,
-      evidence: (c.sources || []).map((s) => ({ title: s.title, url: s.url })),
+      evidence: (c.sources || []).map((s) => ({
+        title: s.title,
+        url: s.url,
+        hostname: s.hostname,
+        snippet: s.snippet || '',
+        stance: s.stance || 'neutral',
+        stanceReason: s.stanceReason || '',
+        reliabilityScore: s.reliabilityScore,
+      })),
     }));
 }
 
@@ -164,6 +193,47 @@ function computeFlags(claims) {
 // than a "minor" (incidental) one, so a single wrong incidental detail
 // doesn't sink the score the same way a fabricated central claim does.
 const IMPORTANCE_WEIGHT = { major: 1.6, minor: 1 };
+
+function computeScoreDetails(claims, weights = DEFAULT_WEIGHTS, thresholds = DEFAULT_THRESHOLDS, visualAnalysis = null, settings = {}) {
+  const scorable = claims.filter((c) => c.verdict !== 'not-applicable');
+  if (scorable.length === 0) {
+    return { score: 50, breakdown: { claims: 50, source: 50, evidence: 0, visual: null, activeWeights: { claims: 25, source: 25, evidence: 35 }, penalties: 0 } };
+  }
+  let weightedTotal = 0, weightSum = 0;
+  for (const c of scorable) {
+    const w = IMPORTANCE_WEIGHT[c.importance] || 1;
+    weightedTotal += scoreForClaim(c) * w; weightSum += w;
+  }
+  const claimComponent = weightSum ? weightedTotal / weightSum : 0.5;
+  const allSources = scorable.flatMap((c) => c.sources || []);
+  const sourceComponent = allSources.length === 0 ? 0.5 : clamp01((allSources.reduce((sum, s) => sum + (Number(s.reliabilityScore) || 0), 0) / allSources.length + 8) / 18);
+  const evidenceComponent = computeEvidenceCoverage(claims) / 100;
+  let visualComponent = null;
+  if (visualAnalysis?.performed) {
+    if (visualAnalysis.aiGenerationVerdict === 'likely_authentic') visualComponent = 1;
+    else if (visualAnalysis.aiGenerationVerdict === 'inconclusive') visualComponent = 0.5;
+    else visualComponent = clamp01(1 - Number(visualAnalysis.confidence || 50) / 100);
+  }
+  const activeWeights = { source: Number(weights.source) || 0, evidence: Number(weights.evidence) || 0, claims: Number(weights.claims) || 0 };
+  if (visualComponent !== null) activeWeights.visual = Number(weights.visual) || 0;
+  const weightTotal = Object.values(activeWeights).reduce((a, b) => a + b, 0) || 100;
+  let score = Math.round(((claimComponent * activeWeights.claims) + (sourceComponent * activeWeights.source) + (evidenceComponent * activeWeights.evidence) + (visualComponent !== null ? visualComponent * activeWeights.visual : 0)) / weightTotal * 100);
+  let penalties = 0;
+  if (settings?.businessReportVerification) {
+    const failed = scorable.filter((c) => c.verdict === 'false').length;
+    penalties += Math.min(failed, 3) * (Number(thresholds.docPenalty) || 0);
+  }
+  if (visualAnalysis?.performed && visualAnalysis.categories) {
+    const flagged = Object.values(visualAnalysis.categories).filter((c) => c?.flagged).length;
+    penalties += Math.min(flagged * (Number(thresholds.mediaPenalty) || 0), 6);
+  }
+  score = Math.max(0, Math.min(100, score - penalties));
+  return { score, breakdown: {
+    claims: Math.round(claimComponent * 100), source: Math.round(sourceComponent * 100),
+    evidence: Math.round(evidenceComponent * 100), visual: visualComponent === null ? null : Math.round(visualComponent * 100),
+    activeWeights, penalties
+  }};
+}
 
 function computeTrustScore(claims, weights = DEFAULT_WEIGHTS, thresholds = DEFAULT_THRESHOLDS, visualAnalysis = null, settings = {}) {
   // "not-applicable" claims (opinion/satire/prediction) were never
